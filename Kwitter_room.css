@@ -1,0 +1,14 @@
+.body_kwitterRoom{
+    background: url(background.jpg);
+}
+
+
+#log-out{
+    padding-left: 900px;
+} 
+
+#namesId{
+    height: 350px;
+    width: 90%;
+    background: white;
+}

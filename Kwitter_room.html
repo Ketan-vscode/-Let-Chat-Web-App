@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Room</title>
+    <link rel="stylesheet" href="Kwitter_room.css">
+    <script src="Kwitter_room.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/7.6.2/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/7.6.2/firebase-firestore.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/live/3.1/firebase.js"></script>
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+</head>
+
+<body class="body_kwitterRoom">
+    <span id="log-out">
+        <a href="#" class="btn btn-info btn-lg">
+            <span class="glyphicon glyphicon-log-out" onclick="logOut()"></span> Log out
+            <label class=""></label>
+        </a>
+        
+    </span>
+    <br>
+    <br>
+    <center>
+        <span id="logged"></span>
+        <!--HTML TAG HOLDING THE USERNAME-->
+        <input type="text" id="input1" class="form-control" placeholder="Search the ROOM">
+        <!--An input box for taking the room name.-->
+        <br>
+        <div class="names" id="namesId">
+            
+        </div>
+        <br>
+        <span id="add-room">
+            <a href="#" class="btn btn-info btn-lg">
+                <span class="glyphicon glyphicon-plus" onclick="addRoom()"></span> Add ROOM
+                <label class=""></label>
+            </a>
+        </span>
+    </center>
+</body>
+
+</html>
